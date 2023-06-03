@@ -1,0 +1,110 @@
+:root
+{
+    --section-color:#efefef;
+    --main-transition: 0.3s;
+    --font-family-sans-serif: "LMRomanSlant10",serif,"Raleway",Helvetica,sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+body
+{
+    font-family: "roboto" , sans-serif;
+}
+.container-fluid
+{
+    background-color:var(--section-color) ;
+    width: 95%;
+}
+p
+{
+    font-family: "Raleway",Helvetica,sans-serif;
+}
+/*land*/
+.land .image img
+{
+    width: 100%;
+}
+/*about*/
+.about .image img
+{
+    width: 80%;
+    opacity: 70%;
+}
+.about .info .social a
+{
+    background-color: #909090;
+    border-radius: 10px;
+    transition: var(--main-transition);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+.about .info .social a:hover
+{
+    background-color: black;
+}
+/*work*/
+.work .carousel-item img
+{
+    height: 550px;
+}
+/*features*/
+.feature .image img
+{
+    width: 80%;
+    opacity: 80%;
+}
+/*contact*/
+.contact
+{
+    text-align: center;
+}
+.contact .content
+{
+    width: 50%;
+    transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+}
+
+.contact .content input
+{
+    width: 100%;
+}
+.contact .content input,
+.contact .content textarea
+{
+    background: transparent;
+    border: 1px solid black;
+}
+.contact .content input:focus,
+.contact .content textarea:focus
+{
+    outline: none;
+}
+.contact .content input::placeholder,
+.contact .content textarea::placeholder
+{
+    color: black;
+    opacity: 70%;
+}
+.contact .content textarea
+{
+    resize: none;
+    width: 100%;
+}
+.contact .content a
+{
+    color: white;
+    background-color: black;
+    width: 100%;
+}
